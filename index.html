@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="custom-body">
+    <!-- Navbar Start -->
+<div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg mt-3 custom-navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand mx-5" href="#">
+              <img src="./Images/logo-1jpg" class="custom-img-1">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link mx-3 custom-nav-1" aria-current="page" href="#">Home</a>
+                  <a class="nav-link mx-3 custom-nav-2" href="#">Aboutus</a>
+                  <a class="nav-link mx-3 custom-nav-3" href="#">Contactus</a>
+                  <a class="nav-link mx-3 custom-nav-4"  href="#">Services</a>
+                  <a class="nav-link mx-3 custom-nav-5"  href="#">Location</a>
+                  <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger mx-3 custom-btn-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Login
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">WELCOME</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <label class="form-label">Name:</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name">
+                    <label class="form-label">Password:</label>
+                    <input type="password" name="name" id="name" class="form-control" placeholder="Enter Your Password">
+                    <a class="nav-link"  href="#">Forgot Password</a>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger">Login</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- Signup -->
+                    <button type="button" class="btn btn-danger mx-3 custom-btn-1" data-bs-toggle="modal" data-bs-target="#exampleModal-1">Signup
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">WELCOME</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="row">
+                    <div class="col-lg-6">
+                    <label class="form-label">FirstName:</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Firstname">
+                    </div>
+                    <div class="col-lg-6">
+                    <label class="form-label">Lastname:</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Lastname">
+                    </div>
+                    </div>
+                    <label class="form-label">Email:</label>
+                    <input type="email" name="name" id="name" class="form-control" placeholder="Enter Your Email">
+                    <label class="form-label">Password:</label>
+                    <input type="password" name="name" id="name" class="form-control" placeholder="Enter Your Password">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger ">Signup</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+          </nav>
+    </header>
+</div>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8 ">
+            <div id="carouselExampleControls" class="carousel slide custom-carousel-1" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                    <!-- card-1 -->
+
+                    <div class="card custom-row-1" style="width: 18rem;">
+                        <img src="./Images/card-1.jpg" class="custom-img-2" alt="...">
+                        <div class="card-body custom-card-1">
+                          <h5 class="card-title p-1" id="p-1">Biriyani</h5>
+                          <p class="card-text p-2">Price:250/-</p>
+                          <div class="rate-img">
+                          <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                          </div>
+                          <button type="button" class="btn btn-danger" onclick="addCart('Biriyani','250')">Add to cart</a>
+                          </div>
+                    </div>
+
+                    <!-- card-2 -->
+
+                    <div class="card custom-row-1" style="width: 18rem;">
+                        <img src="./Images/card-2.jpg" class=" custom-img-2" alt="...">
+                        <div class="card-body custom-card-1">
+                          <h5 class="card-title p-1">Juice</h5>
+                          <p class="card-text p-2">Price:80/-</p>
+                          <div class="rate-img">
+                            <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                          </div>
+                          <a href="#" class="btn btn-danger" onclick="addCart('Juice','80')">Add to cart</a>
+                        </div>
+                    </div>
+
+                    <!-- card-3 -->
+                    <div class="card custom-row-1" style="width: 18rem;">
+                        <img src="./Images/card-3.jpg" class="card-img-top custom-img-2" alt="...">
+                        <div class="card-body custom-card-1">
+                          <h5 class="card-title  p-1">Veg Rice</h5>
+                          <p class="card-text p-2">Price:200/-</p>
+                          <div class="rate-img">
+                            <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                          </div>
+                          <a href="#" class="btn btn-danger" onclick="addCart('Veg Rice','200')">Add to cart</a>
+                        </div>   
+                    </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                        <div class="row">
+                        <!-- card-4 -->
+
+                        <div class="card custom-row-1" style="width: 18rem;">
+                            <img src="./Images/card-4.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body custom-card-1">
+                              <h5 class="card-title p-1">Veg Meals</h5>
+                              <p class="card-text p-2">Price:300/-</p>
+                              <div class="rate-img">
+                                <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                              </div>
+                              <a href="#" class="btn btn-danger" onclick="addCart('Veg meals','300')">Add to cart</a>
+                            </div>
+                        </div>
+
+                        <!-- card-5 -->
+
+                        <div class="card custom-row-1" style="width: 18rem;">
+                            <img src="./Images/card-5.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body custom-card-1">
+                              <h5 class="card-title p-1">Idly</h5>
+                              <p class="card-text p-2">Price:20/-</p>
+                              <div class="rate-img">
+                                <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                              </div>
+                              <a href="#" class="btn btn-danger" onclick="addCart('Idly','20')">Add to cart</a>
+                            </div>
+                        </div>
+
+                        <!-- card-6 -->
+
+                        <div class="card custom-row-1" style="width: 18rem;">
+                            <img src="./Images/card-6.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body custom-card-1">
+                              <h5 class="card-title p-1">Venpongal</h5>
+                              <p class="card-text p-2">Price:150/-</p>
+                              <div class="rate-img">
+                                <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                              </div>
+                              <a href="#" class="btn btn-danger" onclick="addCart('Venpongal','150')">Add to cart</a>
+                            </div>
+                        </div>
+                  </div>
+                  </div>
+
+                  <div class="carousel-item">
+
+                    <div class="row">
+                        <!-- card-7 -->
+
+                        <div class="card custom-row-1" style="width: 18rem;">
+                            <img src="./Images/card-7.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body custom-card-1">
+                              <h5 class="card-title p-1">Vada</h5>
+                              <p class="card-text">Price:15/-</p>
+                              <div class="rate-img">
+                                <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                              </div>
+                              <button type="button" class="btn btn-danger" onclick="addCart('Vada','15')">Add to cart</a>
+                            </div>
+                        </div>
+
+                        <!-- card-8 -->
+
+                        <div class="card custom-row-1" style="width: 18rem;">
+                            <img src="./Images/card-8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body custom-card-1">
+                              <h5 class="card-title p-1">Sambar</h5>
+                              <p class="card-text">Price:100/-</p>
+                              <div class="rate-img">
+                                <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                              </div>
+                              <button type="button" class="btn btn-danger" onclick="addCart('Sambar','100')">Add to cart</button>
+                            </div>
+                        </div>
+
+                        <!-- card-9 -->
+
+                        <div class="card custom-row-1" style="width: 18rem;">
+                            <img src="./Images/card-9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body custom-card-1">
+                              <h5 class="card-title p-1">Chicken Chettinad</h5>
+                              <p class="card-text">Price:350/-</p>
+                              <div class="rate-img">
+                                <img src="./Images/rate.png" height="150px" width="200px" class="custom-card-img">
+                              </div>
+                              <a href="#" class="btn btn-danger" onclick="addCart('Chicken Chettinad','350')">Add to cart</a>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col-lg-4 custom-div">
+           <h6 class="mt-2">Cart Summary</h6>
+           <table id="product-item" class="table table-bordered border-dark">
+            <thead>
+            <tr>
+              <th scope="col">product</th>
+              <th scope="col">Price</th>
+              <th scope="col">Total</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+           </table>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+<!-- Footer -->
+<footer class="text-center text-lg-start  mt-3">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+           Zomato&Swiggy
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Foods</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Extra Foods</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Exradionary Foods</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Excellent Foods</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Coimbatore, Dev Complex, INDIA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@swiggyZomato.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">SwiggyZomato.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</html>

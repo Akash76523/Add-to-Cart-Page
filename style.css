@@ -1,0 +1,66 @@
+.custom-btn-1
+{
+    background-color: darkorange;
+}
+.custom-img-1
+{
+    height: 100px;
+    width: 200px;
+}
+.custom-navbar{
+background: #fc4a1a;
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a); 
+background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+.custom-nav-1,.custom-nav-2,.custom-nav-3,.custom-nav-4,.custom-nav-5{
+    color: white;
+    font-size: 20px;
+}
+.custom-nav-1:hover,.custom-nav-2:hover,.custom-nav-3:hover,.custom-nav-4:hover,
+.custom-nav-5:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 22px;
+}
+.custom-body{
+background: #D1913C; 
+background: -webkit-linear-gradient(to right, #FFD194, #D1913C);
+background: linear-gradient(to right, #FFD194, #D1913C);
+
+}
+.custom-row-1{
+    margin-top: 150px;
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+}
+.custom-carousel-1{
+    height: 700px;
+}
+.custom-card-1
+{
+    text-align: center;
+    font-weight: bold;
+}
+.custom-card-img{
+    margin-top: -20px;
+}
+.custom-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 150px;
+    text-align: center;
+    width: 510px;
+    height: 550px;
+    background-color: white;
+}
+.custom-div h6{
+    margin-top: 15px;
+    font-weight: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    color:#660033;
+}
+footer{
+    background-color:black;
+    color: white;
+}
